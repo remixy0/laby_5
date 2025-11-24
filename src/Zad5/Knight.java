@@ -81,4 +81,9 @@ public class Knight extends Character implements CharacterAttributes{
         System.out.println(this.type);
     }
 
+    @Override
+    void getHealth() {
+        System.out.println(this.health);
+    }
+
 }

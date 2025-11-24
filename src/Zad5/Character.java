@@ -37,4 +37,6 @@ public abstract class Character implements CharacterAttributes{
     abstract void gotAttaked(int damage);
 
     abstract void getType();
+
+    abstract void getHealth();
 }
