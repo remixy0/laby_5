@@ -64,6 +64,10 @@ public class Knight extends Character implements CharacterAttributes{
     @Override
     public void gotAttaked(int damage) {
         System.out.println("Ouch Id: " + Id +" lost " + damage+ " health");
+        this.health -= damage;
+        if(this.health <= 0) {
+            this.isAlive = false;
+        }
     }
 
     @Override

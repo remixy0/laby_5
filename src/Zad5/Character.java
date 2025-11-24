@@ -2,10 +2,12 @@ package Zad5;
 
 
 public abstract class Character implements CharacterAttributes{
+    int health;
     boolean isAlive;
     String type;
     int workingDefense;
     int Id;
+
 
 
     public void walkForward(){
