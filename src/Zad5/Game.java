@@ -20,11 +20,15 @@ public class Game {
         characters[2].specialAttack(characters[1]);
         characters[1].specialAttack(characters[0]);
 
+        characters[0].getHealth();
+
         characters[0].walkBackward();
         characters[0].introduceYourSpecialAbility();
         characters[2].introduceYourSpecialAbility();
 
         characters[1].introduceYouself();
         characters[2].getType();
+
+
     }
 }

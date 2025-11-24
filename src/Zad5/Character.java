@@ -2,7 +2,7 @@ package Zad5;
 
 
 public abstract class Character implements CharacterAttributes{
-    int health;
+    int health = 100;
     boolean isAlive;
     String type;
     int workingDefense;
