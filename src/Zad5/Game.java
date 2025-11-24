@@ -19,6 +19,7 @@ public class Game {
         characters[1].mainAttack(characters[2]);
         characters[2].specialAttack(characters[1]);
         characters[1].specialAttack(characters[0]);
+        characters[1].mainAttack(characters[0]);
 
         characters[0].getHealth();
 

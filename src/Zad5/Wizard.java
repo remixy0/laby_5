@@ -84,7 +84,7 @@ public class Wizard extends Character implements CharacterAttributes {
 
     @Override
     void getHealth() {
-        System.out.println(this.health);
+        System.out.println("I am on "+ this.health+ " health");
     }
 
 
